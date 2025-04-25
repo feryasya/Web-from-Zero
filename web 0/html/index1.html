@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Form</title>
+  </head>
+  <body>
+    <h3>Formulir Pendaftaran</h3>
+    <form>
+      <table
+        border="0"
+        cellpadding="10"
+        cellspacing="0"
+      >
+        <tr>
+          <td align="right"><label for="username">Username :</label></td>
+          <td>
+            <input
+              type="text"
+              id="username"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="password">Password :</label></td>
+          <td>
+            <input
+              type="password"
+              id="password"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><label for="email">Email :</label></td>
+          <td>
+            <input
+              type="email"
+              id="email"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td align="right">Jenis Kelamin :</td>
+          <td>
+            <input
+              type="radio"
+              id="pria"
+              name="jenis_kelamin"
+              value="pria"
+            />
+            <label for="pria">Pria</label>
+            <input
+              type="radio"
+              id="wanita"
+              name="jenis_kelamin"
+              value="wanita"
+            />
+            <label for="wanita">Wanita</label>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">Hobi :</td>
+          <td>
+            <input
+              type="checkbox"
+              name="hobi"
+              id="coding"
+            />
+            <label for="coding">Coding</label>
+            <input
+              type="checkbox"
+              name="hobi"
+              id="berenang"
+            />
+            <label for="berenang">Berenang</label>
+            <input
+              type="checkbox"
+              name="hobi"
+              id="badminton"
+            />
+            <label for="badminton">Badminton</label>
+          </td>
+        </tr>
+        <tr>
+          <td
+            colspan="2"
+            align="center"
+          >
+            <button type="submit">Kirim</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
